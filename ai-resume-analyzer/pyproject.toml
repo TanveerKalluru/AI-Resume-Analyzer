@@ -1,0 +1,23 @@
+[tool]
+name = "ai-resume-analyzer"
+version = "0.1.0"
+description = "A FastAPI backend for analyzing resumes using AI."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[tool.poetry]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "sqlalchemy",
+    "pydantic",
+    "alembic",
+    "python-dotenv",
+    "requests",
+    "pytest",
+    "httpx",
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
